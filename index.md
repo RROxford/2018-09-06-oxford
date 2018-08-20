@@ -10,7 +10,7 @@ humandate: "September 6--7 2018"    # human-readable dates for the workshop (e.g
 humantime: "9:00--17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-09-06      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-09-07        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Phil Fowler", "Paul Thompson", "Stephen Jones"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Philip Fowler", "Paul Thompson", "Stephen Jones"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["philip.fowler@ndm.ox.ac.uk", "paul.thompson@psy.ox.ac.uk", "stephen.jones@kellogg.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -191,7 +191,7 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
 
 {% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
 <p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
+{% if page.carpentry == "swc" %}
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
@@ -516,7 +516,7 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
 <div id="python">  Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
-           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility 
+           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility
   <h3>Python</h3>
 
   <p>
@@ -607,7 +607,7 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
   please go to <a href="setup/index.html">this page</a>,
   which has instructions on how to test that everything was installed correctly.
   </p>
-</div> 
+</div>
 {% endcomment %}
 {% comment %} End of 'Python' section. {% endcomment %}
 
@@ -631,9 +631,9 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        Note that if you have separate user and admin accounts, you should run the
+        installers as administrator (right-click on .exe file and select "Run as
+        administrator" instead of double-clicking). Otherwise problems may occur later,
         for example when installing R packages.
       </p>
     </div>
@@ -663,7 +663,7 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
 {% comment %}
-<div id="sql">  Start of 'SQLite' section. 
+<div id="sql">  Start of 'SQLite' section.
   <h3>SQLite</h3>
 
   <p>
@@ -707,12 +707,12 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
-</div> 
+</div>
 {% endcomment %}
 {% comment %} End of 'SQLite' section. {% endcomment %}
 
 {% comment %}
-<div id="openrefine"> Start of 'OpenRefine' section. 
+<div id="openrefine"> Start of 'OpenRefine' section.
   <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
@@ -757,7 +757,7 @@ eventbrite: "48834697896"          # optional: alphanumeric key for Eventbrite r
       <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
     </div>
   </div>
-</div> 
+</div>
 {% endcomment %}
 
 {% comment %} End of 'OpenRefine' section. {% endcomment %}
